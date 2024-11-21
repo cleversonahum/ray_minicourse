@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+ray = {extras = ["rllib"], version = "*"}
+ipykernel = "*"
+numpy = "*"
+gymnasium = {extras = ["classic-control"], version = "*"}
+matplotlib = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.10"
+python_full_version = "3.10.14"
