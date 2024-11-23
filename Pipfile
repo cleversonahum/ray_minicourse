@@ -4,11 +4,13 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-ray = {extras = ["rllib"], version = "*"}
 ipykernel = "*"
 numpy = "*"
 gymnasium = {extras = ["classic-control"], version = "*"}
 matplotlib = "*"
+ipywidgets = "*"
+torch = "*"
+ray = {extras = ["rllib"], version = "==2.35"}
 
 [dev-packages]
 ipykernel = "*"
