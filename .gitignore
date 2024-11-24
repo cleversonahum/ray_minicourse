@@ -1,6 +1,9 @@
 # Ray results
 **/ray_results/
 
+# Hist files
+**/*.npz
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
