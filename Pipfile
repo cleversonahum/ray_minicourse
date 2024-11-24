@@ -11,6 +11,13 @@ matplotlib = "*"
 ipywidgets = "*"
 torch = "*"
 ray = {extras = ["rllib"], version = "==2.35"}
+black = "==23.1.0"
+isort = "==5.12.0"
+flake8 = "==6.0.0"
+pre-commit = "*"
+tqdm = "*"
+pyright = "==1.1.296"
+pettingzoo = "*"
 
 [dev-packages]
 ipykernel = "*"
