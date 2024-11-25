@@ -11,4 +11,7 @@ simulation:
     simu_name: rrs_simple,
   }
 slices: { max_number_slices: 1 }
-ues: { max_number_ues: 5 }
+ues: { 
+  max_number_ues: 5,
+  max_buffer_pkts: [50000, 50000, 50000, 50000, 50000]
+  }
