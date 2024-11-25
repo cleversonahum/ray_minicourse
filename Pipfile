@@ -18,6 +18,8 @@ pre-commit = "*"
 tqdm = "*"
 pyright = "==1.1.296"
 pettingzoo = "*"
+tensorboardx = "*"
+tensorboard = "*"
 
 [dev-packages]
 ipykernel = "*"
