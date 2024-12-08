@@ -4,3 +4,6 @@
 [submodule "lesson_2/sixg_radio_mgmt"]
 	path = lesson_2/sixg_radio_mgmt
 	url = git@github.com:lasseufpa/sixg_radio_mgmt.git
+[submodule "lesson_3/sixg_radio_mgmt"]
+	path = lesson_3/sixg_radio_mgmt
+	url = git@github.com:lasseufpa/sixg_radio_mgmt.git
